@@ -2,7 +2,8 @@
   "name": "popoyoko-ui-token-generator",
   "version": "1.0.0",
   "description": "Consume tokens and create your own theme ",
-  "main": "index.ts",
+  "main": "./lib/index.d.ts",
+  "type": "module",
   "author": "Popoyoko",
   "license": "MIT",
   "dependencies": {

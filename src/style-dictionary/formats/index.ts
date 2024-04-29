@@ -1,8 +1,8 @@
-import webColorsTs from "./webColorsTs";
-import webSizesTs from "./webSizesTs";
-import webComponentsTs from "./webComponentsTs";
-import FigmaSizes from "./FigmaSizesJson";
-import FigmaComponents from "./FigmaComponentsJson";
+import webColorsTs from "./webColorsTs.js";
+import webSizesTs from "./webSizesTs.js";
+import webComponentsTs from "./webComponentsTs.js";
+import FigmaSizes from "./FigmaSizesJson.js";
+import FigmaComponents from "./FigmaComponentsJson.js";
 
 const initializeCustomFormats = () => {
     webColorsTs(),
