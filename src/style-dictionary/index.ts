@@ -8,9 +8,20 @@ registerTransforms(StyleDictionary);
 initializeCustomFormats();
 semanticColorsAttributes();
 
+import * as path from "path";
+import * as fs from "fs";
+
+const folderPath = process.argv[2];
+
+if (!folderPath || !fs.existsSync(folderPath)) {
+    console.error("There is no token folder on your path.\nPlease enter a valid token path folder.");
+    process.exit(1);
+}
+const tokensPath = path.resolve(folderPath);
+
 const buildTokens = async () => {
   const buildPath = "build";
-  const basePath = "tokens";
+  const basePath = tokensPath;
   const themes = await getAllThemes(basePath);
 
   const baseConfig = (
