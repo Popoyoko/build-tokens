@@ -6,7 +6,7 @@
 
 This repository is designed for developers who want to create tokens for use with Popoyoko-UI.
 
-By consuming tokens extracted from our figma with token studio, we create tokens usable in our library with your branding and on the platforms you want from our selection.
+By consuming tokens extracted from our figma with token studio, we create variables usable in our library with your branding and on the platforms you want from our selection.
 
 📦 [popoyoko-ui **package branch**](https://github.com/Popoyoko/popoyoko-ui/tree/package) <= Here is the build of the component library
 
