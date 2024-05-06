@@ -1,13 +1,33 @@
 # Popoyoko-UI-Token-Generator
 
-## Style dictionary
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Style dictionary is software transforming tokens in variables for different platforms.
+## This is the **Token Generator Repo**
 
-Actually working with `./working-tokens-example/` folder but not working with `./tokens/` folder.
+This repository is designed for developers who want to create tokens for use with Popoyoko-UI.
 
-We can change the target folder by setting the `tokenPath` variable in `./build-tokens.cjs`
+By consuming tokens extracted from our figma with token studio, we create tokens usable in our library with your branding and on the platforms you want from our selection.
 
-**About the issue** => Seems to be a problem with our tokens that are referencing none-existing values
+📦 [popoyoko-ui **package branch**](https://github.com/Popoyoko/popoyoko-ui/tree/package) <= Here is the build of the component library
 
-eg. `error: Reference doesn't exist: tries to reference Regular, which is not defined`
+🕹️ [Here is the **storybook**](https://popoyoko.github.io/popoyoko-ui/) <= Here's the Storybook for viewing components
+
+📦 [Popoyoko-UI-Boilerplate](https://github.com/Popoyoko/Popoyoko-UI-Boilerplate) <= Here is the Boilerplate
+
+
+## This reportory is using bun instead of npm
+
+🏴‍☠️ [Install **BUN** here](https://bun.sh/)
+
+```bash
+bun run build:lib
+```
+
+Compiles the Popoyoko-UI-Token-Generator library.
+
+```bash
+bun run token-generator
+```
+
+Build format tokens with your folder extracted from figma.
+
