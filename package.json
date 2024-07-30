@@ -1,6 +1,6 @@
 {
-  "name": "popoyoko-ui-token-generator",
-  "version": "1.0.0",
+  "name": "popoyoko-create-tokens",
+  "version": "0.1.3",
   "description": "Consume tokens and create your own theme ",
   "main": "./lib/index.d.ts",
   "type": "module",
@@ -23,6 +23,6 @@
     "token-generator": "bun src/index.ts"
   },
   "bin": {
-    "token-generator": "src/index.ts" 
+    "token-generator": "./bin/token-generator.js"
   }
 }
