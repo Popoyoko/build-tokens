@@ -26,7 +26,13 @@ bun run build:lib
 Compiles the Popoyoko-UI-Token-Generator library.
 
 ```bash
-bun run token-generator
+bun run token-generator {nameOfTheTokenFolder}
+```
+
+You can also use this script outside this repository, on your new projects. 
+
+```bash
+token-generator {nameOfTheTokenFolder}
 ```
 
 Build format tokens with your folder extracted from figma.
