@@ -1,6 +1,6 @@
 {
-  "name": "popoyoko-create-tokens",
-  "version": "0.1.3",
+  "name": "create-popoyoko-tokens",
+  "version": "0.0.1",
   "description": "Consume tokens and create your own theme ",
   "main": "./lib/index.d.ts",
   "type": "module",
