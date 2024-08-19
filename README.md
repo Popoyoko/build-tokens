@@ -2,9 +2,9 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-## This is the **Token Generator Repo**
+## This is the **Variables Generator Repo**
 
-This repository is designed for developers who want to create tokens for use with Popoyoko-UI.
+This repository is designed for developers who want to create tokens for use with popoyoko-ui.
 
 By consuming tokens extracted from our figma with token studio, we create variables usable in our library with your branding and on the platforms you want from our selection.
 
@@ -12,7 +12,7 @@ By consuming tokens extracted from our figma with token studio, we create variab
 
 🕹️ [Here is the **storybook**](https://popoyoko.github.io/popoyoko-ui/) <= Here's the Storybook for viewing components
 
-📦 [Popoyoko-UI-Boilerplate](https://github.com/Popoyoko/Popoyoko-UI-Boilerplate) <= Here is the Boilerplate
+📦 [create-popoyoko-app](https://github.com/Popoyoko/create-popoyoko-app) <= Here is the construction tool
 
 
 ## This reportory is using bun instead of npm
@@ -35,5 +35,5 @@ You can also use this script outside this repository, on your new projects.
 token-generator {nameOfTheTokenFolder}
 ```
 
-Build format tokens with your folder extracted from figma.
+Build variables with your tokens folder.
 
