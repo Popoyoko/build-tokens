@@ -1,5 +1,5 @@
 {
-  "name": "create-popoyoko-tokens",
+  "name": "create-popoyoko-variables",
   "version": "0.0.2",
   "description": "Consume tokens and create your own theme ",
   "main": "./lib/index.d.ts",
