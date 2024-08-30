@@ -4,7 +4,7 @@
   "description": "Consume tokens and create your own theme ",
   "main": "./lib/index.d.ts",
   "type": "module",
-  "author": "Popoyoko", 
+  "author": "Popoyoko",
   "license": "MIT",
   "dependencies": {
     "@tokens-studio/sd-transforms": "^0.14.2",
