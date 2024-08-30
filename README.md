@@ -23,16 +23,16 @@ By consuming tokens extracted from our figma with token studio, we create variab
 bun run build:lib
 ```
 
-Compiles the Popoyoko-UI-Token-Generator library.
+Compiles the create-popoyoko-variables library.
 
 ```bash
-bun run token-generator {nameOfTheTokenFolder}
+bun run create-popoyoko-variables {nameOfTheTokenFolder}
 ```
 
 You can also use this script outside this repository, on your new projects. 
 
 ```bash
-token-generator {nameOfTheTokenFolder}
+create-popoyoko-variables {nameOfTheTokenFolder}
 ```
 
 Build variables with your tokens folder.
