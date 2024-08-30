@@ -20,9 +20,9 @@
   },
   "scripts": {
     "build:lib": "tsc && node lib/style-dictionary/index.js",
-    "token-generator": "bun src/index.ts"
+    "create-popoyoko-variables": "bun src/index.ts"
   },
   "bin": {
-    "token-generator": "./bin/token-generator.js"
+    "create-popoyoko-variables": "./bin/create-popoyoko-variables.js"
   }
 }
