@@ -1,8 +1,8 @@
 {
-  "name": "create-popoyoko-variables",
-  "version": "0.0.3",
+  "name": "build-tokens",
+  "version": "0.0.4",
   "description": "Consume tokens and create your own theme ",
-  "main": "./lib/index.d.ts",
+  "main": "./lib/index.js",
   "type": "module",
   "author": "Popoyoko",
   "license": "MIT",
@@ -19,7 +19,7 @@
     "typescript": "^5.4.5"
   },
   "scripts": {
-    "build:lib": "tsc && node lib/style-dictionary/index.js",
+    "build:lib": "tsc && node lib/index.js",
     "create-popoyoko-variables": "bun src/index.ts"
   },
   "bin": {

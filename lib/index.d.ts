@@ -1,2 +1,1 @@
-import buildTokens from "./style-dictionary";
-export default buildTokens;
+export declare const buildTokens: (folderPath: string) => Promise<void>;
