@@ -19,10 +19,14 @@
     "typescript": "^5.4.5"
   },
   "scripts": {
+    "test": "bun run tests/index.ts",
     "build:lib": "tsc && node lib/index.js",
     "create-popoyoko-variables": "bun src/index.ts"
   },
   "bin": {
     "create-popoyoko-variables": "./bin/create-popoyoko-variables.js"
+  },
+  "devDependencies": {
+    "branding": "git@github.com:Popoyoko/popoyoko-branding.git"
   }
 }

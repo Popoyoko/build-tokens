@@ -19,4 +19,24 @@ const semanticColorsAttributes = () => {
   });
 };
 
+export const compositionAttributes = () => {
+  StyleDictionary.registerTransform({
+    name: "component/composition/prop",
+    type: "attribute",
+    matcher: (token) =>
+      token.path.length === 3 && token.path[1] === "Composition",
+    transformer: (token) => {
+      const attrNames = ["component", "composition", "prop", "value"];
+      const originalAttrs = token;
+      let generatedAttrs = {};
+
+      for (let i = 0; i < token.path.length && i < attrNames.length; i++) {
+        generatedAttrs = { name: token.path[0], [token.path[2]]: token.value };
+      }
+
+      return Object.assign(generatedAttrs);
+    },
+  });
+};
+
 export default semanticColorsAttributes;

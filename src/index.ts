@@ -1,12 +1,15 @@
 import StyleDictionary from "style-dictionary";
 import { registerTransforms } from "@tokens-studio/sd-transforms";
 import getAllThemes from "./common/getAllThemes.js";
-import semanticColorsAttributes from "./transforms/index.js";
+import semanticColorsAttributes, {
+  compositionAttributes,
+} from "./transforms/index.js";
 import initializeCustomFormats from "./formats/index.js";
 
 registerTransforms(StyleDictionary);
 initializeCustomFormats();
 semanticColorsAttributes();
+compositionAttributes();
 
 import * as path from "path";
 
@@ -84,7 +87,7 @@ export const buildTokens = async (folderPath: string) => {
           ],
         },
         webComponents: {
-          transforms: ["name/cti/pascal", "attribute/semantic/colors"],
+          transforms: ["name/cti/pascal", "component/composition/prop"],
           buildPath: `${buildPath}/web/`,
           files: [
             {
