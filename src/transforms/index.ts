@@ -27,8 +27,9 @@ export const compositionAttributes = () => {
       token.path.length === 3 && token.path[1] === "Composition",
     transformer: (token) => {
       const attrNames = ["component", "composition", "prop", "value"];
-      const originalAttrs = token;
       let generatedAttrs = {};
+
+      console.log("compoisition is running");
 
       for (let i = 0; i < token.path.length && i < attrNames.length; i++) {
         generatedAttrs = { name: token.path[0], [token.path[2]]: token.value };
